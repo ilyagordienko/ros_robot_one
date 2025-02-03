@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
-
-    <!-- Example link -->
-    <link name="base_link"></link>
-
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ros_robot_one">
+  <!-- Include core components -->
+  <xacro:include filename="robot_core.xacro"/>
+  
+  <!-- Optional: Add sensors/custom components here -->
 </robot>
